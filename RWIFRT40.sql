@@ -1,0 +1,3 @@
+select * from Aurora_PMP09 PM09 
+left join Aurora_PMP04 PM04 on PM09.CONO09 = PM04.CONO04 and PM09.ORDN09 = PM04.ORDN04 and PM09.LINE09 = PM04.LINE04 and CSCD04 = '02'
+where GRNO09 <> 0 
